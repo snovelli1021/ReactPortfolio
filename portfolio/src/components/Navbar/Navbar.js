@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Navbar.css";
 
 export default function Navbar() {
   const [toggleState, setToggleState] = useState("collapse");
@@ -14,7 +15,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          Stephen Novelli Portfolio
         </a>
         <button
           onClick={handleClick}
@@ -38,11 +39,6 @@ export default function Navbar() {
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -51,7 +47,7 @@ export default function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Projects
               </a>
               <ul className="dropdown-menu">
                 <li>
@@ -75,20 +71,11 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
+              <a className="nav-link active" aria-current="page" href="#">
+                Contact
+              </a>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
