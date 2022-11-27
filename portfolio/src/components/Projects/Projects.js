@@ -16,18 +16,26 @@ export default function Projects() {
     <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="/images/react.jpg" />
+          <CCardImage orientation="top" src="../assets/Project1.jpg" />
           <CCardBody>
-            <CCardTitle>Card title</CCardTitle>
+            <CCardTitle>Password Generator</CCardTitle>
             <CCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This password generator uses the inquirer.js package to prompt a
+              user with a series of questions. Each question defines the
+              criteria used to create a randomly generated password. According
+              to a user's input value, the app creates a password string and
+              prints the output to screen. Learn more at the GitHub Repository
+              below.
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small className="text-medium-emphasis">
-              Last updated 3 mins ago
+            <small
+              href="https://github.com/snovelli1021/Assignment3"
+              target="_blank"
+              alt="Link to project repository on GitHub."
+              className="text-medium-emphasis"
+            >
+              GitHub Repository
             </small>
           </CCardFooter>
         </CCard>
@@ -36,15 +44,25 @@ export default function Projects() {
         <CCard className="h-100">
           <CCardImage orientation="top" src="/images/react.jpg" />
           <CCardBody>
-            <CCardTitle>Card title</CCardTitle>
+            <CCardTitle>Team Profile Generator</CCardTitle>
             <CCardText>
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              The Team Profile Generator uses Object Oriented Programming to
+              create a class of Employee and it's subclasses: Engineer, Intern,
+              and Manager. The input for each team member is ran through a unit
+              test to verify that the input value is accepted. The application
+              runs on the back-end, and has the results printed to a static HTML
+              page. See the GitHub Repository and walkthrough video at the link
+              below.
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small className="text-medium-emphasis">
-              Last updated 3 mins ago
+            <small
+              href="https://github.com/snovelli1021/Team-Profile-Generator"
+              target="_blank"
+              alt="Link to project repository on GitHub."
+              className="text-medium-emphasis"
+            >
+              GitHub Repository
             </small>
           </CCardFooter>
         </CCard>
@@ -53,16 +71,23 @@ export default function Projects() {
         <CCard className="h-100">
           <CCardImage orientation="top" src="/images/react.jpg" />
           <CCardBody>
-            <CCardTitle>Card title</CCardTitle>
+            <CCardTitle>E-commerce Back-end</CCardTitle>
             <CCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              This Express App uses a MySql database, Sequelize, and Insomnia to
+              manipulate merchandise data using the CRUD method. Data records
+              are initally seeded on the backend, and then accessed via Insomnia
+              per the appropriate API routes. View the GitHub Repository and
+              walkthrough video at the link below.
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small className="text-medium-emphasis">
-              Last updated 3 mins ago
+            <small
+              href="https://github.com/snovelli1021/Object-Relational-Mapping"
+              target="_blank"
+              alt="Link to project repository on GitHub."
+              className="text-medium-emphasis"
+            >
+              GitHub Repository
             </small>
           </CCardFooter>
         </CCard>
@@ -71,16 +96,29 @@ export default function Projects() {
         <CCard className="h-100">
           <CCardImage orientation="top" src="/images/react.jpg" />
           <CCardBody>
-            <CCardTitle>Card title</CCardTitle>
+            <CCardTitle>Note Taker</CCardTitle>
             <CCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Note Taker is an Express App that features a clean front-end
+              interface that allows a user to add and delete notes from their
+              web browser. The application is deployed live via Heroku
+              <a
+                href="https://sheltered-bastion-19776.herokuapp.com/"
+                target="_blank"
+                alt="Link to deployed Note Taker app on Heroku."
+              >
+                {` here. `}
+              </a>
+              You can also find out more at the repository below.
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small className="text-medium-emphasis">
-              Last updated 3 mins ago
+            <small
+              href="https://github.com/snovelli1021/NoteTaker2"
+              target="_blank"
+              alt="Link to project repository on GitHub."
+              className="text-medium-emphasis"
+            >
+              GitHub Repository
             </small>
           </CCardFooter>
         </CCard>
@@ -89,15 +127,23 @@ export default function Projects() {
         <CCard className="h-100">
           <CCardImage orientation="top" src="/images/react.jpg" />
           <CCardBody>
-            <CCardTitle>Card title</CCardTitle>
+            <CCardTitle>Tech Blog</CCardTitle>
             <CCardText>
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              Tech Blog allows a user to create and delete blog posts and add
+              comments as long as they are signed in. First time visitors are
+              prompted to sign up before they can login and view the dashboard.
+              The multiple page application uses Handlebars.js as it's
+              templating engine. Click below to view the repository on Github.
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small className="text-medium-emphasis">
-              Last updated 3 mins ago
+            <small
+              href="https://github.com/snovelli1021/TechBlog"
+              target="_blank"
+              alt="Link to project repository on GitHub."
+              className="text-medium-emphasis"
+            >
+              GitHub Repository
             </small>
           </CCardFooter>
         </CCard>
@@ -106,16 +152,31 @@ export default function Projects() {
         <CCard className="h-100">
           <CCardImage orientation="top" src="/images/react.jpg" />
           <CCardBody>
-            <CCardTitle>Card title</CCardTitle>
+            <CCardTitle>Text Editor</CCardTitle>
             <CCardText>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Text Editor is a Progressive Web App with a new take on the Note
+              Taker app. It allows a user to add and delete text from their web
+              browser or while offline via local download. The application uses
+              the IndexedDB package to persistantly store data in the browser.
+              Click
+              <a
+                href="https://guarded-sands-11928.herokuapp.com/"
+                target="_blank"
+                alt="Link to deployed Note Taker app on Heroku."
+              >
+                {` here `}
+              </a>
+              to try it now, or check out the repository below.
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small className="text-medium-emphasis">
-              Last updated 3 mins ago
+            <small
+              href=" https://github.com/snovelli1021/TextEditor"
+              target="_blank"
+              alt="Link to project repository on GitHub."
+              className="text-medium-emphasis"
+            >
+              GitHub Repository
             </small>
           </CCardFooter>
         </CCard>
