@@ -10,6 +10,7 @@ import {
 } from "@coreui/react";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "./Projects.css";
+import React from "react";
 
 export default function Projects() {
   return (
@@ -29,14 +30,14 @@ export default function Projects() {
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small
+            <a
               href="https://github.com/snovelli1021/Assignment3"
               target="_blank"
               alt="Link to project repository on GitHub."
               className="text-medium-emphasis"
             >
-              GitHub Repository
-            </small>
+              <button> GitHub Repository </button>
+            </a>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -56,14 +57,14 @@ export default function Projects() {
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small
+            <a
               href="https://github.com/snovelli1021/Team-Profile-Generator"
               target="_blank"
               alt="Link to project repository on GitHub."
               className="text-medium-emphasis"
             >
-              GitHub Repository
-            </small>
+              <button> GitHub Repository </button>
+            </a>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -81,14 +82,14 @@ export default function Projects() {
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small
+            <a
               href="https://github.com/snovelli1021/Object-Relational-Mapping"
               target="_blank"
               alt="Link to project repository on GitHub."
               className="text-medium-emphasis"
             >
-              GitHub Repository
-            </small>
+              <button> GitHub Repository </button>
+            </a>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -112,14 +113,14 @@ export default function Projects() {
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small
+            <a
               href="https://github.com/snovelli1021/NoteTaker2"
               target="_blank"
               alt="Link to project repository on GitHub."
               className="text-medium-emphasis"
             >
-              GitHub Repository
-            </small>
+              <button> GitHub Repository </button>
+            </a>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -137,14 +138,14 @@ export default function Projects() {
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small
+            <a
               href="https://github.com/snovelli1021/TechBlog"
               target="_blank"
               alt="Link to project repository on GitHub."
               className="text-medium-emphasis"
             >
-              GitHub Repository
-            </small>
+              <button> GitHub Repository </button>
+            </a>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -170,14 +171,14 @@ export default function Projects() {
             </CCardText>
           </CCardBody>
           <CCardFooter>
-            <small
+            <a
               href=" https://github.com/snovelli1021/TextEditor"
               target="_blank"
               alt="Link to project repository on GitHub."
               className="text-medium-emphasis"
             >
-              GitHub Repository
-            </small>
+              <button> GitHub Repository </button>
+            </a>
           </CCardFooter>
         </CCard>
       </CCol>

@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light" id="navbarCustom">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Stephen Novelli Portfolio

@@ -1,7 +1,13 @@
 .h-100 {
   background-color: rgba(0, 0, 0, 0.2);
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  background-color: rgb(195, 131, 131);
 }
