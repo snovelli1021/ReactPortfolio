@@ -2,7 +2,6 @@
   margin-bottom: 2%;
 }
 
-.navbar-brand {
+a.nav-link.active {
   color: blue;
-  font-size: 32px;
 }

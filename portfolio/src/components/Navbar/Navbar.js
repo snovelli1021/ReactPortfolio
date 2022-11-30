@@ -14,9 +14,6 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light" id="navbarCustom">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Stephen Novelli Portfolio
-        </a>
         <button
           onClick={handleClick}
           className="navbar-toggler"
@@ -36,38 +33,22 @@ export default function Navbar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                About Me
               </a>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
                 Projects
               </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Fullstack Projects
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    GIS Projects
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-              </ul>
             </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Resume
               </a>
             </li>
           </ul>
