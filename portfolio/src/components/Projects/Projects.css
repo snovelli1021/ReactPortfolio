@@ -10,4 +10,15 @@ a {
 
 button {
   background-color: rgb(195, 131, 131);
+  border-radius: 20px;
+}
+
+.cardPhoto {
+  padding: 2%;
+  height: 50%;
+  width: 100%;
+}
+
+.title {
+  color: red;
 }

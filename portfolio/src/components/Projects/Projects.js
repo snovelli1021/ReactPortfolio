@@ -11,15 +11,26 @@ import {
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "./Projects.css";
 import React from "react";
+import photo1 from "../../assets/Project1.jpg";
+import photo2 from "../../assets/Project2.jpg";
+import photo3 from "../../assets/Project3.jpg";
+import photo4 from "../../assets/Project4.jpg";
+import photo5 from "../../assets/Project5.jpg";
+import photo6 from "../../assets/Project6.jpg";
 
 export default function Projects() {
   return (
     <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="../assets/Project1.jpg" />
+          <CCardImage
+            orientation="top"
+            className="cardPhoto"
+            alt="Screenshot of website or application"
+            src={photo1}
+          />
           <CCardBody>
-            <CCardTitle>Password Generator</CCardTitle>
+            <CCardTitle class="title">Password Generator</CCardTitle>
             <CCardText>
               This password generator uses the inquirer.js package to prompt a
               user with a series of questions. Each question defines the
@@ -43,9 +54,14 @@ export default function Projects() {
       </CCol>
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="/images/react.jpg" />
+          <CCardImage
+            orientation="top"
+            className="cardPhoto"
+            alt="Screenshot of website or application"
+            src={photo2}
+          />
           <CCardBody>
-            <CCardTitle>Team Profile Generator</CCardTitle>
+            <CCardTitle class="title">Team Profile Generator</CCardTitle>
             <CCardText>
               The Team Profile Generator uses Object Oriented Programming to
               create a class of Employee and it's subclasses: Engineer, Intern,
@@ -70,9 +86,14 @@ export default function Projects() {
       </CCol>
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="/images/react.jpg" />
+          <CCardImage
+            orientation="top"
+            className="cardPhoto"
+            alt="Screenshot of website or application"
+            src={photo3}
+          />
           <CCardBody>
-            <CCardTitle>E-commerce Back-end</CCardTitle>
+            <CCardTitle class="title">E-commerce Back-end</CCardTitle>
             <CCardText>
               This Express App uses a MySql database, Sequelize, and Insomnia to
               manipulate merchandise data using the CRUD method. Data records
@@ -95,9 +116,14 @@ export default function Projects() {
       </CCol>
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="/images/react.jpg" />
+          <CCardImage
+            orientation="top"
+            className="cardPhoto"
+            alt="Screenshot of website or application"
+            src={photo4}
+          />
           <CCardBody>
-            <CCardTitle>Note Taker</CCardTitle>
+            <CCardTitle class="title">Note Taker</CCardTitle>
             <CCardText>
               Note Taker is an Express App that features a clean front-end
               interface that allows a user to add and delete notes from their
@@ -126,9 +152,14 @@ export default function Projects() {
       </CCol>
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="/images/react.jpg" />
+          <CCardImage
+            orientation="top"
+            className="cardPhoto"
+            alt="Screenshot of website or application"
+            src={photo5}
+          />
           <CCardBody>
-            <CCardTitle>Tech Blog</CCardTitle>
+            <CCardTitle class="title">Tech Blog</CCardTitle>
             <CCardText>
               Tech Blog allows a user to create and delete blog posts and add
               comments as long as they are signed in. First time visitors are
@@ -151,9 +182,14 @@ export default function Projects() {
       </CCol>
       <CCol xs>
         <CCard className="h-100">
-          <CCardImage orientation="top" src="/images/react.jpg" />
+          <CCardImage
+            orientation="top"
+            className="cardPhoto"
+            alt="Screenshot of website or application"
+            src={photo6}
+          />
           <CCardBody>
-            <CCardTitle>Text Editor</CCardTitle>
+            <CCardTitle class="title">Text Editor</CCardTitle>
             <CCardText>
               Text Editor is a Progressive Web App with a new take on the Note
               Taker app. It allows a user to add and delete text from their web
