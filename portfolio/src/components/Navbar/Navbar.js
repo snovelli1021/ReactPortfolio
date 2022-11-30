@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ currentPage, setCurrentPage }) {
   const [toggleState, setToggleState] = useState("collapse");
   const handleClick = () => {
     if (toggleState === "collapse") {
@@ -32,22 +32,52 @@ export default function Navbar() {
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#Home"
+                onClick={() => setCurrentPage("Home")}
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#AboutMe"
+                onClick={() => setCurrentPage("AboutMe")}
+              >
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#Projects"
+                onClick={() => setCurrentPage("Projects")}
+              >
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#Contact"
+                onClick={() => setCurrentPage("Contact")}
+              >
                 Contact
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#Resume"
+                onClick={() => setCurrentPage("Resume")}
+              >
                 Resume
               </a>
             </li>

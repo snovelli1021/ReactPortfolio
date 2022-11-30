@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 import Header from "./components/Header/Header.js";
 import Navbar from "./components/Navbar/Navbar.js";
 import Home from "./components/pages/";
@@ -12,20 +13,17 @@ import Resume from "./components/pages/Resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("All");
+
   return (
     <div className="App">
-      <Header />
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Resume" element={<Resume />} />
-        </Routes>
-      </Router>
-
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      {(currentPage === "Home" || currentPage === "All") && <Home />}
+      {(currentPage === "AboutMe" || currentPage === "All") && <AboutMe />}
+      {(currentPage === "Projects" || currentPage === "All") && <Projects />}
+      {(currentPage === "Resume" || currentPage === "All") && <Resume />}
+      {(currentPage === "Contact" || currentPage === "All") && <Contact />}
       <Footer />
     </div>
   );
