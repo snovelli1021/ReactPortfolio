@@ -31,7 +31,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 className="nav-link active"
                 aria-current="page"
@@ -40,7 +40,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
               >
                 Home
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 className="nav-link active"
@@ -65,20 +65,20 @@ export default function Navbar({ currentPage, setCurrentPage }) {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="#Contact"
-                onClick={() => setCurrentPage("Contact")}
+                href="#Resume"
+                onClick={() => setCurrentPage("Resume")}
               >
-                Contact
+                Resume
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="#Resume"
-                onClick={() => setCurrentPage("Resume")}
+                href="#Contact"
+                onClick={() => setCurrentPage("Contact")}
               >
-                Resume
+                Contact
               </a>
             </li>
           </ul>
