@@ -32,7 +32,7 @@ const Projects = () => {
               src={photo1}
             />
             <CCardBody>
-              <CCardTitle class="title">Password Generator</CCardTitle>
+              <CCardTitle className="title">Password Generator</CCardTitle>
               <CCardText>
                 This password generator uses the inquirer.js package to prompt a
                 user with a series of questions. Each question defines the
@@ -63,7 +63,7 @@ const Projects = () => {
               src={photo2}
             />
             <CCardBody>
-              <CCardTitle class="title">Team Profile Generator</CCardTitle>
+              <CCardTitle className="title">Team Profile Generator</CCardTitle>
               <CCardText>
                 The Team Profile Generator uses Object Oriented Programming to
                 create a class of Employee and it's subclasses: Engineer,
@@ -95,7 +95,7 @@ const Projects = () => {
               src={photo3}
             />
             <CCardBody>
-              <CCardTitle class="title">E-commerce Back-end</CCardTitle>
+              <CCardTitle className="title">E-commerce Back-end</CCardTitle>
               <CCardText>
                 This Express App uses a MySql database, Sequelize, and Insomnia
                 to manipulate merchandise data using the CRUD method. Data
@@ -125,7 +125,7 @@ const Projects = () => {
               src={photo4}
             />
             <CCardBody>
-              <CCardTitle class="title">Note Taker</CCardTitle>
+              <CCardTitle className="title">Note Taker</CCardTitle>
               <CCardText>
                 Note Taker is an Express App that features a clean front-end
                 interface that allows a user to add and delete notes from their
@@ -161,7 +161,7 @@ const Projects = () => {
               src={photo5}
             />
             <CCardBody>
-              <CCardTitle class="title">Tech Blog</CCardTitle>
+              <CCardTitle className="title">Tech Blog</CCardTitle>
               <CCardText>
                 Tech Blog allows a user to create and delete blog posts and add
                 comments as long as they are signed in. First time visitors are
@@ -192,7 +192,7 @@ const Projects = () => {
               src={photo6}
             />
             <CCardBody>
-              <CCardTitle class="title">Text Editor</CCardTitle>
+              <CCardTitle className="title">Text Editor</CCardTitle>
               <CCardText>
                 Text Editor is a Progressive Web App with a new take on the Note
                 Taker app. It allows a user to add and delete text from their

@@ -1,0 +1,33 @@
+#resumeWordIcon {
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80px;
+  height: 80px;
+  padding: 2%;
+  background: url("./assets/MSWordIcon.png");
+  cursor: pointer;
+  background-size: contain;
+  border: none;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+}
+
+#resumeAdobeIcon {
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80px;
+  height: 80px;
+  padding: 2%;
+  background: url("./assets/AdobeIcon.png");
+  cursor: pointer;
+  background-size: contain;
+  border: none;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+}

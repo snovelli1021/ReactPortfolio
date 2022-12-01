@@ -17,6 +17,7 @@ import EverettLogo from "./assets/EverettLogo.jpg";
 import ShipLogo from "./assets/ShipLogo.png";
 import UWLogo from "./assets/UWLogo.png";
 
+//Need to style cards on page, fill out white space, and figure out ul console error
 const AboutMe = () => {
   return (
     <div>
@@ -32,7 +33,7 @@ const AboutMe = () => {
               src={profilePicture}
             />
             <CCardBody>
-              <CCardTitle class="title">Stephen Novelli Is...</CCardTitle>
+              <CCardTitle className="title">Stephen Novelli Is...</CCardTitle>
               <CCardText>
                 passionate about developing web applications and refactoring
                 digital media for an improved user experience. My unique
@@ -64,7 +65,7 @@ const AboutMe = () => {
               src={DominionEnergy}
             />
             <CCardBody>
-              <CCardTitle class="title">Dominion Energy</CCardTitle>
+              <CCardTitle className="title">Dominion Energy</CCardTitle>
               <CCardText>
                 <ul>
                   <li>
@@ -98,7 +99,7 @@ const AboutMe = () => {
               src={EverettLogo}
             />
             <CCardBody>
-              <CCardTitle class="title">City of Everett</CCardTitle>
+              <CCardTitle className="title">City of Everett</CCardTitle>
               <CCardText>
                 <ul>
                   <li>
@@ -132,7 +133,7 @@ const AboutMe = () => {
               src={ShipLogo}
             />
             <CCardBody>
-              <CCardTitle class="title">
+              <CCardTitle className="title">
                 Shippensburg University of Pennsylvania
               </CCardTitle>
               <CCardText>
@@ -155,7 +156,9 @@ const AboutMe = () => {
               src={UWLogo}
             />
             <CCardBody>
-              <CCardTitle class="title">University of Washington</CCardTitle>
+              <CCardTitle className="title">
+                University of Washington
+              </CCardTitle>
               <CCardText>
                 UW Coding Bootcamp Fullstack Web Development. University of
                 Washington, Seattle, WA.
