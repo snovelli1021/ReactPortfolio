@@ -11,17 +11,44 @@ import {
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "./Projects.css";
 import React from "react";
-import photo1 from "../../../assets/Project1.jpg";
-import photo2 from "../../../assets/Project2.jpg";
-import photo3 from "../../../assets/Project3.jpg";
-import photo4 from "../../../assets/Project4.jpg";
-import photo5 from "../../../assets/Project5.jpg";
-import photo6 from "../../../assets/Project6.jpg";
+import photo1 from "./assets/Project1.jpg";
+import photo2 from "./assets/Project2.jpg";
+import photo3 from "./assets/Project3.jpg";
+import photo4 from "./assets/Project4.jpg";
+import photo5 from "./assets/Project5.jpg";
+import photo6 from "./assets/Project6.jpg";
+// import data from "./"
 
 const Projects = () => {
   return (
     <div>
       <h1>My Projects</h1>
+      {/* {data.map( ({title, text, url, ...}) =>(
+       <CCard className="h-100">
+       <CCardImage
+         orientation="top"
+         className="cardPhoto"
+         alt="Screenshot of website or application"
+         src={photo1}
+       />
+       <CCardBody>
+         <CCardTitle className="title">{title}</CCardTitle>
+         <CCardText>
+           {text}
+         </CCardText>
+       </CCardBody>
+       <CCardFooter>
+         <a
+           href={url}
+           target="_blank"
+           alt="Link to project repository on GitHub."
+           className="text-medium-emphasis"
+         >
+           <button> GitHub Repository </button>
+         </a>
+       </CCardFooter>
+     </CCard> 
+      ))} */}
       <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
         <CCol xs>
           <CCard className="h-100">

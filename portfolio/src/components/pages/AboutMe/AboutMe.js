@@ -55,7 +55,7 @@ const AboutMe = () => {
         </CCol>
       </CRow>
       <h3>Professional Experience</h3>
-      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
+      <CRow xs={{ cols: 2 }} md={{ cols: 2 }} className="g-4">
         <CCol xs>
           <CCard className="h-100">
             <CCardImage
@@ -123,7 +123,7 @@ const AboutMe = () => {
         </CCol>
       </CRow>
       <h3>Education</h3>
-      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
+      <CRow xs={{ cols: 2 }} md={{ cols: 3 }} className="g-4">
         <CCol xs>
           <CCard className="h-100">
             <CCardImage

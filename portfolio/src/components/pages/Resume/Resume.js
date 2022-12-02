@@ -14,7 +14,7 @@ import "./Resume.css";
 import resumePhoto from "./assets/Resume.jpg";
 
 // Need to write a function to download resume onClick and fill out white space
-const Resume = () => {
+export default function Resume() {
   return (
     <div>
       <h1>My Resume</h1>
@@ -71,6 +71,4 @@ const Resume = () => {
       </CRow>
     </div>
   );
-};
-
-export default Resume;
+}

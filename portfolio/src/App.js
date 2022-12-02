@@ -3,8 +3,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import Header from "./components/Header/Header.js";
-import Navbar from "./components/Navbar/Navbar.js";
-// import Home from "./components/pages/";
 import AboutMe from "./components/pages/AboutMe/AboutMe.js";
 import Projects from "./components/pages/Projects/Projects.js";
 import Contact from "./components/pages/Contact/Contact.js";
@@ -12,18 +10,15 @@ import Resume from "./components/pages/Resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("All");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
   return (
     <div className="App">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {/* {(currentPage === "Home" || currentPage === "All") && <Home />} */}
-      {(currentPage === "AboutMe" || currentPage === "All") && <AboutMe />}
-      {(currentPage === "Projects" || currentPage === "All") && <Projects />}
-      {(currentPage === "Resume" || currentPage === "All") && <Resume />}
-      {(currentPage === "Contact" || currentPage === "All") && <Contact />}
-
+      {currentPage === "AboutMe" && <AboutMe />}
+      {currentPage === "Projects" && <Projects />}
+      {currentPage === "Resume" && <Resume />}
+      {currentPage === "Contact" && <Contact />}
       <Footer />
     </div>
   );

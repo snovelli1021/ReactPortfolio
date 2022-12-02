@@ -12,6 +12,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-div.app {
-  background-color: #282c34;
+.App {
+  background-color: #191d20;
 }

@@ -1,12 +1,37 @@
+form.contactForm {
+  width: 45%;
+  margin-left: 1%;
+}
+
 #nameInput {
-  width: 25%;
+  display: flex;
+  width: 75%;
+  margin-bottom: 2%;
 }
 #emailInput {
-  width: 25%;
+  display: flex;
+  width: 75%;
+  margin-bottom: 2%;
 }
 #messageInput {
-  width: 25%;
+  display: flex;
+  width: 75%;
+  height: 200px;
+  margin-bottom: 2%;
+  text-align: top;
+  word-wrap: break-word;
 }
 #submitBtn {
-  width: 25%;
+  display: inline-block;
+  width: 80px;
+  margin-top: 2%;
+}
+
+#formLabel {
+  float: left;
+  margin-bottom: 2%;
+}
+
+#formMessageLabel {
+  float: left;
 }

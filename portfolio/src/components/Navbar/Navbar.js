@@ -12,7 +12,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light" id="navbarCustom">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <button
           onClick={handleClick}
@@ -43,7 +43,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li> */}
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 href="#AboutMe"
                 onClick={() => setCurrentPage("AboutMe")}
@@ -53,7 +53,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 href="#Projects"
                 onClick={() => setCurrentPage("Projects")}
@@ -63,7 +63,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 href="#Resume"
                 onClick={() => setCurrentPage("Resume")}
@@ -73,7 +73,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 href="#Contact"
                 onClick={() => setCurrentPage("Contact")}

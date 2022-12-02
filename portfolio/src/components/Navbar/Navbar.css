@@ -1,7 +1,25 @@
-#navbarCustom {
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  width: 350px;
+  height: 30px;
   margin-bottom: 2%;
+  background: none;
 }
 
-a.nav-link.active {
-  color: blue;
+.container-fluid {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  border-radius: 20px;
+  border: solid;
+  border-color: white;
+  margin-top: 40px;
+}
+
+a.nav-link {
+  color: white;
 }
