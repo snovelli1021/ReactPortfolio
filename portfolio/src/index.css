@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
 }
 
 code {
@@ -14,4 +13,36 @@ code {
 }
 .App {
   background-color: #191d20;
+}
+
+/* Text color and card color are pulling from Project.CSS? */
+.h-100 {
+  background-color: red;
+  color: rgba(0, 172, 193, 1);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.title {
+  color: white;
+  font-style: italic;
+}
+
+/* Text color and card color are pulling from Project.CSS? */
+h3 {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: left;
+}
+
+/* button border-radius only pulls from Project.CSS? */
+button {
+  background-color: rgb(187, 192, 20);
+  border-radius: 20px;
 }

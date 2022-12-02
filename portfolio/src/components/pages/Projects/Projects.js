@@ -49,7 +49,15 @@ const Projects = () => {
        </CCardFooter>
      </CCard> 
       ))} */}
-      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
+
+      {/* Need to work on row widths and image sizes */}
+      <CRow
+        xs={{ cols: 1 }}
+        md={{ cols: 2 }}
+        lg={{ cols: 3 }}
+        xl={{ cols: 6 }}
+        className="g-4"
+      >
         <CCol xs>
           <CCard className="h-100">
             <CCardImage

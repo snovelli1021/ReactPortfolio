@@ -22,8 +22,10 @@ const AboutMe = () => {
   return (
     <div>
       <h1>About Me</h1>
-      <h3>Bio</h3>
-      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} className="g-4">
+      <div>
+        <h3>Personal Bio</h3>
+      </div>
+      <CRow xs={{ cols: 1 }} md={{ cols: 4 }} className="g-4">
         <CCol xs>
           <CCard className="h-100">
             <CCardImage
@@ -54,8 +56,10 @@ const AboutMe = () => {
           </CCard>
         </CCol>
       </CRow>
-      <h3>Professional Experience</h3>
-      <CRow xs={{ cols: 2 }} md={{ cols: 2 }} className="g-4">
+      <div>
+        <h3>Professional Experience</h3>
+      </div>
+      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} lg={{ cols: 6 }} className="g-4">
         <CCol xs>
           <CCard className="h-100">
             <CCardImage
@@ -121,9 +125,12 @@ const AboutMe = () => {
             </CCardFooter>
           </CCard>
         </CCol>
+        {/* Need to work on row widths and image sizes */}
       </CRow>
-      <h3>Education</h3>
-      <CRow xs={{ cols: 2 }} md={{ cols: 3 }} className="g-4">
+      <div>
+        <h3>Education</h3>
+      </div>
+      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} lg={{ cols: 6 }} className="g-4">
         <CCol xs>
           <CCard className="h-100">
             <CCardImage

@@ -2,6 +2,19 @@
   background-color: rgba(0, 0, 0, 0.2);
   margin-left: 2%;
   margin-right: 2%;
+  border-radius: 20px;
+}
+
+h3 {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: left;
 }
 
 a {
@@ -9,7 +22,7 @@ a {
 }
 
 button {
-  background-color: rgb(195, 131, 131);
+  background-color: rgb(187, 192, 20);
   border-radius: 20px;
 }
 
@@ -17,8 +30,4 @@ button {
   padding: 2%;
   height: 50%;
   width: 100%;
-}
-
-.title {
-  color: red;
 }
