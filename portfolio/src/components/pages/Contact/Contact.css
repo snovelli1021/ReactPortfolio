@@ -30,8 +30,10 @@ form.contactForm {
 #formLabel {
   float: left;
   margin-bottom: 2%;
+  color: white;
 }
 
 #formMessageLabel {
   float: left;
+  color: white;
 }

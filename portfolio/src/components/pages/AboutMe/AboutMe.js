@@ -25,7 +25,13 @@ const AboutMe = () => {
       <div>
         <h3>Personal Bio</h3>
       </div>
-      <CRow xs={{ cols: 1 }} md={{ cols: 4 }} className="g-4">
+      <CRow
+        xs={{ cols: 1 }}
+        md={{ cols: 2 }}
+        lg={{ cols: 3 }}
+        xl={{ cols: 6 }}
+        className="g-4"
+      >
         <CCol xs>
           <CCard className="h-100">
             <CCardImage

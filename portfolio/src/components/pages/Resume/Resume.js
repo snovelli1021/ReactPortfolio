@@ -34,18 +34,24 @@ export default function Resume() {
                 Earth | Project Planning & Implementation | Data Analysis &
                 Visualization | Quality Control & Quality Assurance |
                 Cross-Functional Teamwork & Collaboration | Windows PC | OS for
-                mac | Android & iOS for Mobile
+                mac | Android & iOS for Mobile.
               </CCardText>
-              <button
-                orientation="top"
-                id="resumeWordIcon"
-                alt="Microsoft Word Icon"
-              />
-              <button
-                orientation="top"
-                id="resumeAdobeIcon"
-                alt="Adobe pdf Icon"
-              />
+              {/* need to add word and pdf version of resume to assets folder. */}
+              <a href="./assets/Resume.docx" download>
+                <button
+                  orientation="top"
+                  id="resumeWordIcon"
+                  alt="Microsoft Word Icon"
+                />
+              </a>
+              <a href="./assets/Resume.pdf" download>
+                <button
+                  orientation="top"
+                  id="resumeAdobeIcon"
+                  alt="Adobe pdf Icon"
+                  download
+                />
+              </a>
             </CCardBody>
             <CCardFooter>
               <p> Click an icon above to download my resume</p>
