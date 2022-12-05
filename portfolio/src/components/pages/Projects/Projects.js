@@ -18,13 +18,7 @@ const Projects = () => {
     <div>
       <h1>My Projects</h1>
       {/* Need to style columns and column height and fix image sizes. */}
-      <CRow
-        xs={{ cols: 1 }}
-        md={{ cols: 2 }}
-        lg={{ cols: 3 }}
-        xl={{ cols: 6 }}
-        className="g-4"
-      >
+      <CRow>
         {data.map(({ photoUrl, title, text, url }) => (
           <CCard className="h-100">
             <CCardImage

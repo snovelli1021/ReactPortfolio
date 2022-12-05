@@ -13,13 +13,17 @@ code {
 }
 .App {
   background-color: #191d20;
+  /* background-image: url("../public/assets/Confetti4.gif"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Text color and card color are pulling from Project.CSS? */
 .h-100 {
   background-color: red;
   color: rgba(0, 172, 193, 1);
-  margin-left: 2%;
+
   margin-right: 2%;
 }
 
@@ -38,7 +42,6 @@ h3 {
   color: white;
   margin-top: 2%;
   margin-bottom: 2%;
-  text-align: left;
 }
 
 /* button border-radius only pulls from Project.CSS? */

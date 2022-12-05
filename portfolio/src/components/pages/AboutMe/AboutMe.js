@@ -26,11 +26,11 @@ const AboutMe = () => {
         <h3>Personal Bio</h3>
       </div>
       <CRow
-        xs={{ cols: 1 }}
+        // xs={{ cols: 1 }}
         md={{ cols: 2 }}
-        lg={{ cols: 3 }}
-        xl={{ cols: 6 }}
-        className="g-4"
+        lg={{ cols: 2 }}
+        // xl={{ cols: 6 }}
+        // className="g-4"
       >
         <CCol xs>
           <CCard className="h-100">
@@ -41,7 +41,7 @@ const AboutMe = () => {
               src={profilePicture}
             />
             <CCardBody>
-              <CCardTitle className="title">Stephen Novelli Is...</CCardTitle>
+              <CCardTitle className="title">Stephen Novelli is...</CCardTitle>
               <CCardText>
                 passionate about developing web applications and refactoring
                 digital media for an improved user experience. My unique
@@ -65,7 +65,7 @@ const AboutMe = () => {
       <div>
         <h3>Professional Experience</h3>
       </div>
-      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} lg={{ cols: 6 }} className="g-4">
+      <CRow>
         <CCol xs>
           <CCard className="h-100">
             <CCardImage
@@ -136,7 +136,7 @@ const AboutMe = () => {
       <div>
         <h3>Education</h3>
       </div>
-      <CRow xs={{ cols: 1 }} md={{ cols: 3 }} lg={{ cols: 6 }} className="g-4">
+      <CRow>
         <CCol xs>
           <CCard className="h-100">
             <CCardImage

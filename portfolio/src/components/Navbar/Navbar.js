@@ -33,9 +33,10 @@ export default function Navbar({ currentPage, setCurrentPage }) {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a
+                name="top"
                 className="nav-link"
                 aria-current="page"
-                href="#AboutMe"
+                href="#Top"
                 onClick={() => setCurrentPage("AboutMe")}
               >
                 About Me
@@ -43,9 +44,10 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li>
             <li className="nav-item">
               <a
+                name="top"
                 className="nav-link"
                 aria-current="page"
-                href="#Projects"
+                href="#Top"
                 onClick={() => setCurrentPage("Projects")}
               >
                 Projects
@@ -53,9 +55,10 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li>
             <li className="nav-item">
               <a
+                name="top"
                 className="nav-link"
                 aria-current="page"
-                href="#Resume"
+                href="#Top"
                 onClick={() => setCurrentPage("Resume")}
               >
                 Resume
@@ -63,9 +66,10 @@ export default function Navbar({ currentPage, setCurrentPage }) {
             </li>
             <li className="nav-item">
               <a
+                name="top"
                 className="nav-link"
                 aria-current="page"
-                href="#Contact"
+                href="#Top"
                 onClick={() => setCurrentPage("Contact")}
               >
                 Contact

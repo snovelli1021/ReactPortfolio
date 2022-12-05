@@ -23,7 +23,7 @@ a {
 }
 
 button {
-  background-color: rgba(155, 159, 15, 0.866);
+  background-color: goldenrod;
   border-radius: 20px;
 }
 
@@ -32,4 +32,5 @@ button {
   height: 300px;
   width: 380px;
   border-radius: 20px;
+  margin-top: 2%;
 }
