@@ -4,10 +4,4 @@
 {"title": "Note Taker" , "text": "Note Taker is an Express App that features a clean front-end interface that allows a user to add and delete notes from their web browser. The application is deployed live via Heroku and you can find the link and more at the repository below.", "photoUrl": "./assets/Project4.jpg" , "url": "https://github.com/snovelli1021/NoteTaker2" },
 {"title": "Tech Blog" , "text": "Tech Blog allows a user to create and delete blog posts and add comments as long as they are signed in. First time visitors are prompted to sign up before they can login and view the dashboard. The multiple page application uses Handlebars.js as it's templating engine. Click below to view the repository on Github.", "photoUrl": "./assets/Project5.jpg" , "url": "https://github.com/snovelli1021/TechBlog" },
 {"title": "Text Editor" , "text": "Text Editor is a Progressive Web App with a new take on the Note Taker app. It allows a user to add and delete text from their web browser or while offline via local download. The application uses the IndexedDB package to persistently store data in the browser. Click on the repository link below to find out more and try it now.", "photoUrl": "./assets/Project6.jpg" , "url": "https://github.com/snovelli1021/TextEditor" }
-
-
-
-
-
-
 ]
