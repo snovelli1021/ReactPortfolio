@@ -23,19 +23,19 @@ const AboutMe = () => {
       </div>
       {/* Need to style columns and column height and fix image sizes. */}
       <CRow>
-        {bioData.map(({ photoUrl, title, text, footer }) => (
+        {bioData.map(({ bioPhoto, bioTitle, bioText, bioFooter }) => (
           <CCard className="h-100">
             <CCardImage
               orientation="top"
               className="cardPhoto"
               alt="Screenshot of website or application"
-              src={photoUrl}
+              src={bioPhoto}
             />
             <CCardBody>
-              <CCardTitle className="title">{title}</CCardTitle>
-              <CCardText>{text}</CCardText>
+              <CCardTitle className="title">{bioTitle}</CCardTitle>
+              <CCardText>{bioText}</CCardText>
             </CCardBody>
-            <CCardFooter>{footer}</CCardFooter>
+            <CCardFooter>{bioFooter}</CCardFooter>
           </CCard>
         ))}
       </CRow>
@@ -44,19 +44,19 @@ const AboutMe = () => {
           <h3>Professional Experience</h3>
         </div>
         <CRow>
-          {workData.map(({ photoUrl, title, text, footer }) => (
+          {workData.map(({ workPhoto, workTitle, workText, workFooter }) => (
             <CCard className="h-100">
               <CCardImage
                 orientation="top"
                 className="cardPhoto"
                 alt="Screenshot of website or application"
-                src={photoUrl}
+                src={workPhoto}
               />
               <CCardBody>
-                <CCardTitle className="title">{title}</CCardTitle>
-                <CCardText>{text}</CCardText>
+                <CCardTitle className="title">{workTitle}</CCardTitle>
+                <CCardText>{workText}</CCardText>
               </CCardBody>
-              <CCardFooter>{footer}</CCardFooter>
+              <CCardFooter>{workFooter}</CCardFooter>
             </CCard>
           ))}
         </CRow>
@@ -66,21 +66,28 @@ const AboutMe = () => {
           <h3>Educational Experience</h3>
         </div>
         <CRow>
-          {educationData.map(({ photoUrl, title, text, footer }) => (
-            <CCard className="h-100">
-              <CCardImage
-                orientation="top"
-                className="cardPhoto"
-                alt="Screenshot of website or application"
-                src={photoUrl}
-              />
-              <CCardBody>
-                <CCardTitle className="title">{title}</CCardTitle>
-                <CCardText>{text}</CCardText>
-              </CCardBody>
-              <CCardFooter>{footer}</CCardFooter>
-            </CCard>
-          ))}
+          {educationData.map(
+            ({
+              educationPhoto,
+              educationTitle,
+              educationText,
+              educationFooter,
+            }) => (
+              <CCard className="h-100">
+                <CCardImage
+                  orientation="top"
+                  className="cardPhoto"
+                  alt="Screenshot of website or application"
+                  src={educationPhoto}
+                />
+                <CCardBody>
+                  <CCardTitle className="title">{educationTitle}</CCardTitle>
+                  <CCardText>{educationText}</CCardText>
+                </CCardBody>
+                <CCardFooter>{educationFooter}</CCardFooter>
+              </CCard>
+            )
+          )}
         </CRow>
       </div>
     </div>

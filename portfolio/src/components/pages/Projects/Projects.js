@@ -1,6 +1,5 @@
 import {
   CRow,
-  CCol,
   CCard,
   CCardImage,
   CCardBody,
@@ -11,7 +10,7 @@ import {
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "./Projects.css";
 import React from "react";
-import data from "./data.json";
+import data from "./projectData.json";
 
 const Projects = () => {
   return (
@@ -19,21 +18,21 @@ const Projects = () => {
       <h1>My Projects</h1>
       {/* Need to style columns and column height and fix image sizes. */}
       <CRow>
-        {data.map(({ photoUrl, title, text, url }) => (
+        {data.map(({ prjPhoto, prjTitle, prjText, prjUrl }) => (
           <CCard className="h-100">
             <CCardImage
               orientation="top"
               className="cardPhoto"
               alt="Screenshot of website or application"
-              src={photoUrl}
+              src={prjPhoto}
             />
             <CCardBody>
-              <CCardTitle className="title">{title}</CCardTitle>
-              <CCardText>{text}</CCardText>
+              <CCardTitle className="title">{prjTitle}</CCardTitle>
+              <CCardText>{prjText}</CCardText>
             </CCardBody>
             <CCardFooter>
               <a
-                href={url}
+                href={prjUrl}
                 target="_blank"
                 alt="Link to project repository on GitHub."
                 className="text-medium-emphasis"
