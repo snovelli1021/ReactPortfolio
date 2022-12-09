@@ -25,21 +25,22 @@ const Resume = () => {
             <CCardBody>
               <CCardTitle className="title">{skillsTitle}</CCardTitle>
               <CCardText>{skillsText}</CCardText>
-              <a href="./assets/Resume.docx" download>
+              <a href="./assets/NovelliResume.docx" download>
                 <button
                   orientation="top"
                   id="resumeWordIcon"
                   alt="Microsoft Word Icon"
                 />
               </a>
-              <a href="./assets/Resume.pdf" download>
+              {/* Uncomment for future deployment. Need to download Adobe Suite.  */}
+              {/* <a href="./assets/Resume.pdf" download>
                 <button
                   orientation="top"
                   id="resumeAdobeIcon"
                   alt="Adobe pdf Icon"
                   download
                 />
-              </a>
+              </a> */}
             </CCardBody>
             <CCardFooter>{skillsFooter}</CCardFooter>
           </CCard>
@@ -48,8 +49,8 @@ const Resume = () => {
           <CCard className="h-100">
             <CCardTitle className="title">{resumeTitle}</CCardTitle>
             <CCardImage
+              id="resumePhoto"
               orientation="top"
-              className="cardPhoto"
               alt="Screenshot of website or application"
               src={resumePhoto}
             />

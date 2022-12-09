@@ -1,21 +1,25 @@
 form.contactForm {
   width: 45%;
   margin-left: 1%;
+  border: white;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 2%;
 }
 
 #nameInput {
   display: flex;
-  width: 75%;
+  width: 100%;
   margin-bottom: 2%;
 }
 #emailInput {
   display: flex;
-  width: 75%;
+  width: 100%;
   margin-bottom: 2%;
 }
 #messageInput {
   display: flex;
-  width: 75%;
+  width: 100%;
   height: 200px;
   margin-bottom: 2%;
   text-align: top;

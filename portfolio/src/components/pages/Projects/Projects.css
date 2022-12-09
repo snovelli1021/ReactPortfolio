@@ -4,6 +4,9 @@
   margin-right: 2%;
   border-radius: 20px;
   width: 400px;
+  margin-top: 2%;
+  border: white;
+  border-style: solid;
 }
 
 h3 {
@@ -30,7 +33,7 @@ button {
 .cardPhoto {
   padding: 2%;
   height: 300px;
-  width: 380px;
+  width: 100%;
   border-radius: 20px;
   margin-top: 2%;
 }

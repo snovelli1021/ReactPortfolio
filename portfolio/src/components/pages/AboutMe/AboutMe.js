@@ -27,7 +27,7 @@ const AboutMe = () => {
           <CCard className="h-100">
             <CCardImage
               orientation="top"
-              className="cardPhoto"
+              className="profilePhoto"
               alt="Screenshot of website or application"
               src={bioPhoto}
             />

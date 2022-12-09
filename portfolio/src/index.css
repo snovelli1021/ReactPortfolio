@@ -13,18 +13,19 @@ code {
 }
 .App {
   background-color: #191d20;
-  /* background-image: url("../public/assets/Confetti4.gif"); */
+  background-image: url("../public/assets/Background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-/* Text color and card color are pulling from Project.CSS? */
 .h-100 {
   background-color: red;
   color: rgba(0, 172, 193, 1);
   align-items: center;
   margin-right: 2%;
+  border: white;
+  border-style: solid;
 }
 
 .title {
@@ -32,7 +33,6 @@ code {
   font-style: italic;
 }
 
-/* Text color and card color are pulling from Project.CSS? */
 h3 {
   background: linear-gradient(
     60deg,
@@ -42,10 +42,4 @@ h3 {
   color: white;
   margin-top: 2%;
   margin-bottom: 2%;
-}
-
-/* button border-radius only pulls from Project.CSS? */
-button {
-  background-color: rgb(187, 192, 20);
-  border-radius: 20px;
 }

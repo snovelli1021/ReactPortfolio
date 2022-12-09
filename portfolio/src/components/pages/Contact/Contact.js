@@ -28,6 +28,7 @@ const Contact = () => {
           id="messageInput"
           placeholder="Please leave a detailed message"
           aria-describedby="exampleFormControlInputHelpInline"
+          maxLength={200}
         />
         <CFormText component="span" id="formMessageLabel">
           Message must be less than 200 characters.

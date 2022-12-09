@@ -10,7 +10,7 @@ export default function Footer() {
     >
       <MDBContainer className="p-4">
         <MDBRow>
-          <MDBCol lg="4" md="4" className="mb-4 mb-md-0">
+          <MDBCol>
             <h5 className="text-uppercase">Contact:</h5>
 
             <p>snovelli92@msn.com</p>
