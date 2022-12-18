@@ -38,4 +38,4 @@ No tests are required to view or run this application.
 ![Preview](./portfolio/public/assets/Screenshot.jpg)
 
 ## Accreditations:
-  Stephen Novelli's Portfolio was styled using the Boostrap framework and utilizes CoreUI to build some of the components that make up the UI. The application runs using the Node.js runtime environment, and is deployed for use publicly via Heroku.
+  Stephen Novelli's Portfolio was styled using the Boostrap framework and utilizes CoreUI to build some of the components that make up the UI. The application runs using the Node.js runtime environment, and is deployed for use publicly via Heroku. The background image can be found at the link in the following citation. **Image Source:** *Adam San, "BLACK AND GOLD HOT POWERPOINT BACKGROUND", SLIDEBACKGROUND.com, Feb 18, 2021, https://www.slidebackground.com/free-image/black-and-gold-hot-powerpoint-background-5112.html*

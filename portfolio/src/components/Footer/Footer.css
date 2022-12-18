@@ -10,3 +10,8 @@
 a#copyrightText {
   text-align: center;
 }
+
+#imageSrc {
+  color: white;
+  font-size: 12px;
+}

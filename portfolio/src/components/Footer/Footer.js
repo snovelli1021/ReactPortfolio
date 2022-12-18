@@ -23,6 +23,7 @@ export default function Footer() {
                 <a
                   href="https://www.linkedin.com/in/stephen-novelli-a4b97b242/"
                   alt="Link to LinkedIn Profile"
+                  target="blank"
                   className="text-white"
                 >
                   LinkedIn
@@ -32,6 +33,7 @@ export default function Footer() {
                 <a
                   href="https://github.com/snovelli1021"
                   alt="Link to GitHub Profile"
+                  target="blank"
                   className="text-white"
                 >
                   GitHub
@@ -40,8 +42,9 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://everettwa.maps.arcgis.com/home/user.html"
+                  href="https://www.arcgis.com/home/user.html?user=SNovelli"
                   alt="Link to ArcGIS Online Profile"
+                  target="blank"
                   className="text-white"
                 >
                   ArcGIS Online
@@ -58,6 +61,15 @@ export default function Footer() {
       >
         © 2022 Copyright:
         <a> Stephen Novelli</a>
+        <br></br>
+        {/* Background Image Source: Adam San, "BLACK AND GOLD HOT POWERPOINT BACKGROUND", SLIDEBACKGROUND.com, Feb 18, 2021, https://www.slidebackground.com/free-image/black-and-gold-hot-powerpoint-background-5112.html */}
+        <a
+          id="imageSrc"
+          href="https://www.slidebackground.com/free-image/black-and-gold-hot-powerpoint-background-5112.html"
+          target="blank"
+        >
+          Background Image:
+        </a>
       </div>
     </MDBFooter>
   );

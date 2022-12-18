@@ -13,6 +13,7 @@ code {
 }
 .App {
   background-color: #191d20;
+  /* Image Source: Adam San, "BLACK AND GOLD HOT POWERPOINT BACKGROUND", SLIDEBACKGROUND.com, Feb 18, 2021, https://www.slidebackground.com/free-image/black-and-gold-hot-powerpoint-background-5112.html  */
   background-image: url("../public/assets/Background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
