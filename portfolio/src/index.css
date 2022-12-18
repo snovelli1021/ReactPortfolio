@@ -20,15 +20,6 @@ code {
   background-size: cover;
 }
 
-.h-100 {
-  background-color: red;
-  color: rgba(0, 172, 193, 1);
-  align-items: center;
-  margin-right: 2%;
-  border: white;
-  border-style: solid;
-}
-
 .title {
   color: white;
   font-style: italic;
